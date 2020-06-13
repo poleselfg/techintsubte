@@ -1,0 +1,359 @@
+:root {
+  --main-bg-color: #f7f7f7;
+  --main-txt-color: #9d9d9d;
+  --main-title-color: #183356;
+  --main-intro-text-color: #122634;
+  --main-intro-p-color: #717073;
+}
+@font-face {
+  font-family: "Moderat";
+  src: url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.eot");
+  src: url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.svg#Moderat")
+      format("svg");
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+nav {
+  display: flex;
+  margin-top: auto;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  color: white;
+  margin: 10px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav ul li img {
+  height: 35px;
+  margin-right: 20px;
+}
+
+#receiver {
+  background-image: url("../images/1.png");
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+#epi {
+  margin-top: 55vh;
+}
+
+#epi img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+#lineahtit {
+  font-family: Moderat;
+  font-size: 6rem;
+  margin: 50px 20px;
+  margin-bottom: 1px;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+
+#lineahp {
+  font-size: 2.5rem;
+  margin: 50px 20px;
+  margin-top: 1px;
+  font-family: Moderat;
+  font-weight: 100;
+}
+
+#bloqueintro {
+  justify-content: center;
+  display: flex;
+  width: 80vw;
+  margin-top: 50px;
+  font-family: "Moderat";
+  width: 100vw;
+}
+
+#introp {
+  color: var(--main-intro-p-color);
+  max-width: 200px;
+  padding-right: 150px;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#introtext {
+  color: var(--main-intro-text-color);
+  max-width: 800px;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.blogsection {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.divimgytxt {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.divblog {
+  max-width: 800px;
+}
+
+.divblog h2 {
+  font-family: "moderat";
+  color: var(--main-title-color);
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+
+.divblog p {
+  font-family: "moderat";
+  color: var(--main-txt-color);
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.imgdiv {
+  width: 600px;
+  margin: 30px;
+}
+
+.sectionvideo {
+  width: 100vw;
+}
+
+.video {
+  width: 99%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.overlap-ausmod {
+  width: 100vw;
+  position: relative;
+  height: 1100px;
+  margin-bottom: 150px;
+}
+
+.ausmodimg {
+  position: absolute;
+  width: 75%;
+  margin-top: 50px;
+  top: 0;
+  right: 0;
+}
+
+.ausmodimgin {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.ausmodtxt {
+  background-color: white;
+  color: var(--main-txt-color);
+  position: absolute;
+  width: 25%;
+  height: auto;
+  padding: 50px;
+  bottom: -10%;
+  right: 60%;
+}
+
+.ausmodtxt h2 {
+  font-family: "moderat";
+  color: var(--main-title-color);
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+
+.ausmodtxt p {
+  font-family: "moderat";
+  color: var(--main-txt-color);
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.overlaptestdiv {
+  width: 100vw;
+  position: relative;
+  height: 1100px;
+  margin-top: 150px;
+}
+
+.overlapimgdiv {
+  position: absolute;
+  width: 55%;
+  margin-top: 50px;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.overlaptextdiv {
+  background-color: var(--main-title-color);
+  color: white;
+  position: absolute;
+  width: 25%;
+  height: auto;
+  padding: 300px;
+  bottom: 0%;
+  right: 0%;
+}
+
+.ausmodtxt h2 {
+  font-family: "moderat";
+  color: var(--main-title-color);
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+
+.ausmodtxt p {
+  font-family: "moderat";
+  color: var(--main-txt-color);
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.overlap-ausmod2 {
+  width: 100vw;
+  position: relative;
+  height: 1100px;
+  margin-bottom: 150px;
+}
+
+.ausmodimg2 {
+  position: absolute;
+  width: 75%;
+  margin-top: 50px;
+  top: 0;
+  right: 0;
+}
+
+.ausmodimgin2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.ausmodtxt2 {
+  background-color: white;
+  color: var(--main-txt-color);
+  position: absolute;
+  width: 25%;
+  height: auto;
+  padding: 140px;
+  bottom: -10%;
+  right: 60%;
+}
+
+.ausmodtxt2 h2 {
+  font-family: "moderat";
+  color: var(--main-title-color);
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+
+.ausmodtxt2 p {
+  font-family: "moderat";
+  color: var(--main-txt-color);
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+#footersection {
+  height: 80vh;
+  width: 100%;
+  background-color: var(--main-title-color);
+}
+#footertext {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footertextin {
+  margin-top: 200px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  margin-bottom: -500px;
+}
+
+#parallax {
+  width: 100vw;
+  height: 800px;
+}
+
+.screen {
+  height: 150vh;
+}
+.blue {
+  background: LightSkyBlue;
+}
+
+.red {
+  background: coral;
+}
+
+.box {
+  border: 2px solid black;
+  background: white;
+  display: flex;
+  font-size: 1rem;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0;
+}
+
+.text {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+  z-index: 2;
+}
+
+#imageView {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+#imageView img {
+  width: 600px;
+  margin: 100px;
+}
