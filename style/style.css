@@ -47,12 +47,31 @@ nav ul li img {
 }
 
 #receiver {
-  background-image: url("../images/1.png");
+  background-image: url("../vid/intro.mp4");
   background-size: cover;
   height: 100vh;
   width: auto;
 }
+.video-container {
+  top: 0%;
+  left: 0%;
+  height: 650px;
+  width: 100%;
+  overflow: hidden;
+}
 
+video.fillWidth {
+  background-size: cover;
+  bottom: 0;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  right: 0;
+  width: auto;
+  z-index: -100;
+  visibility: visible;
+}
 #epi {
   margin-top: 55vh;
 }
@@ -306,12 +325,12 @@ nav ul li img {
 }
 
 #parallax {
-  width: 100vw;
-  height: 800px;
+  width: 99vw;
+  height: 600px;
 }
 
 .screen {
-  height: 110vh;
+  height: 105vh;
 }
 
 .box {
@@ -365,7 +384,25 @@ nav ul li img {
   z-index: -1;
   transition: background-image 1s ease-in-out;
 }
+
+#imageViewnofix {
+  position: flex;
+
+  top: 50%;
+
+  /* bring your own prefixes */
+
+  z-index: -1;
+}
+
 #imageView img {
+  width: 60vw;
+
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#imageViewnofix img {
   width: 60vw;
 
   object-fit: cover;
