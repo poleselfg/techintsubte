@@ -201,7 +201,7 @@ nav ul li img {
 .overlaptestdiv {
   width: 100vw;
   position: relative;
-  height: 1100px;
+  height: 1000px;
   margin-top: 150px;
 }
 
@@ -311,28 +311,39 @@ nav ul li img {
 }
 
 .screen {
-  height: 150vh;
-}
-.blue {
-  background: LightSkyBlue;
-}
-
-.red {
-  background: coral;
+  height: 110vh;
 }
 
 .box {
-  border: 2px solid black;
-  background: white;
+  border: 1px solid black;
+  background: rgba(255, 255, 255, 0.6);
+  font-family: "moderat";
+  letter-spacing: 2px;
   display: flex;
   font-size: 1rem;
   color: black;
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 20%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.remove {
+  border: none !important;
+  background: none !important;
+  font-family: "moderat";
+  display: flex;
+  font-size: 1rem;
+  color: none !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 50%;
   margin: 0 auto;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem;
 }
 
 .text {
@@ -352,8 +363,11 @@ nav ul li img {
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
   z-index: -1;
+  transition: background-image 1s ease-in-out;
 }
 #imageView img {
-  width: 600px;
-  margin: 100px;
+  width: 60vw;
+
+  object-fit: cover;
+  overflow: hidden;
 }

@@ -12,7 +12,7 @@ window.onload = function () {
     "./images/CutAndCover_0005_t_06.jpg",
     "./images/CutAndCover_0003_t_07.jpg",
     "./images/CutAndCover_0001_t_08.jpg",
-    " ",
+    "./images/Empty.png",
   ];
 
   function callback(entries, observer) {
