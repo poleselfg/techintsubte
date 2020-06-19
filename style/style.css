@@ -325,7 +325,7 @@ video.fillWidth {
 }
 
 #parallax {
-  width: 99vw;
+  width: 100vw;
   height: 600px;
 }
 
@@ -348,6 +348,11 @@ video.fillWidth {
   margin: 0 auto;
   padding: 1rem;
   border-radius: 5px;
+}
+
+.nobox {
+  border: 0px !important;
+  width: 1px !important;
 }
 
 .remove {
@@ -385,14 +390,13 @@ video.fillWidth {
   transition: background-image 1s ease-in-out;
 }
 
-#imageViewnofix {
-  position: flex;
-
-  top: 50%;
-
+#imageView2 {
+  display: inline;
+  margin-left: 20vw;
   /* bring your own prefixes */
 
   z-index: -1;
+  transition: background-image 1s ease-in-out;
 }
 
 #imageView img {
@@ -402,7 +406,7 @@ video.fillWidth {
   overflow: hidden;
 }
 
-#imageViewnofix img {
+#imageView2 img {
   width: 60vw;
 
   object-fit: cover;

@@ -19,8 +19,8 @@
         <h1 id="lineahtit">Línea H</h1>
         <h2 id="lineahp">Un subte para transformar la ciudad</h2>
         <img src="./images/scroll.png" alt="scroll" />
-        <video autoplay loop class="fillWidth visible-lg">
-          <source src="./vid/intro.mp4" type="video/mp4; "/>        
+        <video autoplay muted loop class="fillWidth visible-lg"
+          source src="./vid/intro.mp4" type="video/mp4; ">        
           Your browser does not support the video tag.
       </video>
       </div>
@@ -93,7 +93,7 @@
       </div>
     </section>
     <section class="sectionvideo">
-      <img class="video" src="./images/3.png" alt="" />
+      <video src="./vid/Construcción.mp4" autoplay class="video"></video>
     </section>
     <section class="blogsection">
       <div class="divblog">
@@ -188,16 +188,19 @@
       </section>
 
       </div>
-      <div class="box remove" data-box="9"></div>
-        <div id="parallax">
-          <div id="imageView">
+      <div class="box nobox" data-box="9"></div>
+
+      <div id="parallax">
+        <div id="toClear" style="display: flex; justify-content: center; width: 100%">
+            <img style="width: 60vw" src="./images/CutAndCover_0015_t_01.jpg" alt="">
+        </div>
+        <div id="imageView">
             <img
               id="imagen-1"
               src=" "
             />
-
-          </div>
           
+        </div>    
         </div>
       <div class="intesect">
         <div class="screen">
@@ -241,7 +244,12 @@
           </div>
         </div>
         </div>
-        <div class="box remove" data-box="9"></div>
+        <div class="box" data-box="9"></div>
+        <div id="alFinal" style="display: none; justify-content: center; width: 100%">
+          <img style="width: 60vw" src="./images/CutAndCover_0001_t_08.jpg" alt="">
+      </div>
+ 
+        
         
         <section class="blogsection">
           <div class="divblog">
@@ -400,7 +408,7 @@
       </div>
     </section>
     <section class="sectionvideo">
-      <img class="video" src="./images/9.png" alt="" />
+      <video class="video" src="./vid/laureano.mp4" controls autoplay muted>
     </section>
     <section class="blogsection">
       <div class="divblog">
@@ -440,7 +448,7 @@
       </div>
     </section>
     <section class="sectionvideo">
-      <img class="video" src="./images/10-02.png" alt="" />
+      <video class="video" src="./vid/julieta.mp4" controls autoplay muted>
     </section>
     <section class="blogsection">
       <div class="divblog">
